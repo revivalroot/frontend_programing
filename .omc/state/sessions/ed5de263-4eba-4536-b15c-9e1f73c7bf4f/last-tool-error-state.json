@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"ls -la ~/mcp.json 2>&1; echo \\\"---\\\"; cat ~/mcp.json 2>&1\",\"description\":\"Check if ~/mcp.json exists\"}",
+  "error": "Exit code 1\nls: cannot access '/home/elysia/mcp.json': No such file or directory\n---\ncat: /home/elysia/mcp.json: No such file or directory",
+  "timestamp": "2026-09-02T14:17:00.278Z",
+  "retry_count": 1
+}

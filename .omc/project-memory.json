@@ -1,0 +1,105 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1789037535239,
+  "projectRoot": "/mnt/d/DongyangMirai/2학년 강의들/2학기/frontend_programing",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": "npm test",
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "tsc",
+      "watch": "tsc -watch"
+    }
+  },
+  "conventions": {
+    "namingStyle": "camelCase",
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "dist": {
+      "path": "dist",
+      "purpose": "Distribution/build output",
+      "fileCount": 1,
+      "lastAccessed": 1789037535218,
+      "keyFiles": [
+        "app.js"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 2,
+      "lastAccessed": 1789037535222,
+      "keyFiles": [
+        "app.js",
+        "app.ts"
+      ]
+    },
+    "수업자료": {
+      "path": "수업자료",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1789037535225,
+      "keyFiles": [
+        "2.실습환경구성.pdf"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "수업자료/2.실습환경구성.pdf",
+      "accessCount": 2,
+      "lastAccessed": 1788359065054,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1788352787091,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1789038570489,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
