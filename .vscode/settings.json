@@ -1,12 +1,15 @@
 {
-    "code-runner.executorMap": {
-        "javascript": "node",           // javascript는 node 파일명.js로 실행
-        "typescript": "npx.cmd tsx",    // typescript는 npx.cmd tsx파일명.ts 로 실행
-    },
+  "code-runner.executorMap": {
+    "javascript": "node", // javascript는 node 파일명.js로 실행
+    "typescript": "npx.cmd tsx" // typescript는 npx.cmd tsx파일명.ts 로 실행
+  },
 
-    "code-runner.runInTerminal": true,  // 실행 결과를 Terminal에 표시
-    "code-runner.saveFileBeforeRun": true,  // 실행전 자동저장
-    "code-runner.ignoreSelection": true,    // 실행할 파일의 전체 내용을 실행 고정
-    "code-runner.clearPreviousOutput": true
+  "code-runner.runInTerminal": true, // 실행 결과를 Terminal에 표시
+  "code-runner.saveFileBeforeRun": true, // 실행전 자동저장
+  "code-runner.ignoreSelection": true, // 실행할 파일의 전체 내용을 실행 고정
+  "code-runner.clearPreviousOutput": true,
 
+  "editor.fontSize": 16,
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // 기본 코드 포맷터로 Prettier 확장을 지정 (자동 정렬/스타일 적용 도구)
+  "editor.formatOnSave": true // 파일을 저장할 때마다 자동으로 코드를 포맷(정리)함
 }
